@@ -1,10 +1,11 @@
 import React from 'react';
-import {Text} from 'react-native';;
-const Body=({})=>
+import {Image} from 'react-native';;
+import styles from "./styles"
+const Body=({imageUri})=>
 {
     return(
         <>
-            <Text>Body</Text>
+            <Image source={{uri:imageUri}} style={styles.image}></Image>
         </>
     )
 };

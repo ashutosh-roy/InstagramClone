@@ -4,7 +4,7 @@ import styles from './styles';
 const ProfilePicture = ({uri,size=70}) =>
 {
     return(
-    <View style = {styles.container,{width:size+6,height:size+6}}>
+    <View style = {styles.container,{width:size+7,height:size+7}}>
     <Image source = {{uri:uri}} style = {[styles.image,{width:size,height:size}]}/>
     </View>
     )

@@ -6,7 +6,7 @@ const story = ({imageUri,name}) =>
     return(
     <>
     <View>
-        <ProfilePicture uri={imageUri} size={40}/>
+        <ProfilePicture uri={imageUri} size={70}/>
         <Text>{name}</Text>
     </View>
     </>
